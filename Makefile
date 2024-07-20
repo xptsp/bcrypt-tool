@@ -2,7 +2,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=bcrypt-tool
 PKG_VERSION:=1.1.6
-PKG_RELEASE:=1
+PKG_RELEASE:=2
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/shoenig/bcrypt-tool.git
@@ -11,7 +11,7 @@ PKG_MIRROR_HASH:=5ec1c97542f826431977168c024d547d7eb45c5c17e1d01d79736547a5a4319
 
 PKG_LICENSE:=GPL-2.0-only
 PKG_LICENSE_FILES:=LICENSE
-PKG_MAINTAINER:=Marcel Vital <ralmina@tuta.io>
+PKG_MAINTAINER:=Douglas Orend <doug.orend2@gmail.com>
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/bcrypt-tool-$(PKG_VERSION)
 PKG_BUILD_DEPENDS:=golang/host
